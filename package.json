@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "cucumber-js tests -f json:cucumber_report.json",
+    "report": "yarn test && node tools/report.js && open reports/index.html"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-report": "^0.6.5",
+    "nightmare": "^3.0.2"
+  }
+}

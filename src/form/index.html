@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        label.error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+<div class="containter">
+    <div class="row">
+        <div class="col-xs-10 col-xs-push-1">
+            <div class="alert alert-danger hide" role="alert">Form is not valid!</div>
+            <div class="alert alert-success hide" role="alert">Submit Success</div>
+            <h1>Register</h1>
+            <form role="form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="text" class="form-control" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Mobile Phone:</label>
+                    <input type="text" class="form-control" name="phone" id="phone">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
