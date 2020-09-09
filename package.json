@@ -1,12 +1,15 @@
 {
   "scripts": {
+    "start": "http-server src/form",
     "test": "cucumber-js tests -f json:cucumber_report.json",
     "report": "yarn test && node tools/report.js && open reports/index.html"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "chai": "^4.2.0",
     "cucumber": "^6.0.5",
     "cucumber-html-report": "^0.6.5",
-    "nightmare": "^3.0.2"
+    "nightmare": "^3.0.2",
+    "prettier": "2.1.1"
   }
 }
